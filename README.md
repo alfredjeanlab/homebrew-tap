@@ -26,6 +26,14 @@ Multi-agent vibe coding orchestrator.
 brew install alfredjeanlab/tap/v0
 ```
 
+### quench
+
+A fast linting tool for AI agents that measures quality signals.
+
+```bash
+brew install alfredjeanlab/tap/quench
+```
+
 ## License
 
 MIT - Copyright (c) 2026 Alfred Jean LLC
