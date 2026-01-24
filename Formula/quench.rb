@@ -1,8 +1,8 @@
 class Quench < Formula
   desc "A fast linting tool for AI agents that measures quality signals"
   homepage "https://github.com/alfredjeanlab/quench"
-  url "https://github.com/alfredjeanlab/quench/releases/download/v0.1.0/quench-0.1.0.tar.gz"
-  sha256 "6fb0c469daa0285fc34ef52c019d5f459be955f9ec89f3ff858ebc2c68b892f0"
+  url "https://github.com/alfredjeanlab/quench/releases/download/v0.2.0/quench-0.2.0.tar.gz"
+  sha256 "bf5dff91747ac557b0322912a60762ca1e30cbcfb809c6d78957aea545bb40cf"
   license "MIT"
 
   depends_on "rust" => :build
