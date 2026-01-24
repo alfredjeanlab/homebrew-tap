@@ -9,11 +9,12 @@ class Wok < Formula
 
   def install
     system "cargo", "build", "--release", "--workspace"
-    bin.install "target/release/wk"
+    bin.install "target/release/wk" => "wok"
     bin.install "target/release/wk-remote"
+    bin.install_symlink "wok" => "wk"
   end
 
   test do
-    system "#{bin}/wk", "--help"
+    system "#{bin}/wok", "--help"
   end
 end
