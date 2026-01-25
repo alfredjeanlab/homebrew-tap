@@ -8,6 +8,7 @@ class V0 < Formula
   depends_on "alfredjeanlab/tap/wok"
   depends_on "flock"
   depends_on "jq"
+  depends_on "ripgrep" => :recommended
   depends_on "tmux"
 
   def install
