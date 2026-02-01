@@ -1,8 +1,8 @@
 class V0 < Formula
   desc "A tool to ease you in to multi-agent vibe coding"
   homepage "https://github.com/alfredjeanlab/v0"
-  url "https://github.com/alfredjeanlab/v0/archive/refs/tags/v0.3.3.tar.gz"
-  sha256 "5a052a2efb546d7486e9afa1afe7453986d0c2b9bfee93e388918df328d629be"
+  url "https://github.com/alfredjeanlab/v0/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "70b06f45beb3873a5787e731278ec14916680f1d58b68f24884bcc9c8baece98"
   license "MIT"
 
   depends_on "alfredjeanlab/tap/wok"
