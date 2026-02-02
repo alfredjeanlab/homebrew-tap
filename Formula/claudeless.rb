@@ -1,8 +1,8 @@
 class Claudeless < Formula
   desc "A Claude CLI simulator for integration testing"
   homepage "https://github.com/alfredjeanlab/claudeless"
-  url "https://github.com/alfredjeanlab/claudeless/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "02dff7c60b576baa969cc712517a0f715972f44551cfc35c37c95844265a82e3"
+  url "https://github.com/alfredjeanlab/claudeless/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "8cd8d78764c6178b8ce7dc6dcbf654e4d63f1c58ddcd82a1cba2820353549b22"
   license "MIT"
 
   depends_on "rust" => :build
