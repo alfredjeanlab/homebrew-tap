@@ -10,6 +10,8 @@ class Quench < Formula
   def install
     system "cargo", "build", "--release", "--workspace"
     bin.install "target/release/quench"
+
+    generate_completions_from_executable(bin/"quench", "completions")
   end
 
   test do

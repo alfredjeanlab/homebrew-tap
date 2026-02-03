@@ -12,6 +12,8 @@ class Wok < Formula
     bin.install "target/release/wk" => "wok"
     bin.install "target/release/wk-remote"
     bin.install_symlink "wok" => "wk"
+
+    generate_completions_from_executable(bin/"wok", "completion")
   end
 
   test do
