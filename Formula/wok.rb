@@ -1,8 +1,8 @@
 class Wok < Formula
   desc "Collaborative, offline-first, AI-friendly issue tracker"
   homepage "https://github.com/alfredjeanlab/wok"
-  url "https://github.com/alfredjeanlab/wok/archive/refs/tags/v0.4.1.tar.gz"
-  sha256 "d4b26925671616583df39cc6337ac62baa73f0e9d0e28c94f32d851d94e7250c"
+  url "https://github.com/alfredjeanlab/wok/archive/refs/tags/v0.4.2.tar.gz"
+  sha256 "94f7fb64cfa7a1ff7273149d8b1ee0f5dfbbc925b9a42152a78b57d3465d336d"
   license "MIT"
 
   depends_on "rust" => :build
