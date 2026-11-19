@@ -10,28 +10,20 @@ brew tap alfredjeanlab/tap
 
 ## Formulas
 
-### wok
+### ripcloc
 
-Collaborative, offline-first, AI-friendly issue tracker.
+Quickly counts lines of code by language.
 
 ```bash
-brew install alfredjeanlab/tap/wok
+brew install alfredjeanlab/tap/ripcloc
 ```
 
-### v0
+### claudeless
 
-Multi-agent vibe coding orchestrator.
-
-```bash
-brew install alfredjeanlab/tap/v0
-```
-
-### quench
-
-A fast linting tool for AI agents that measures quality signals.
+A Claude CLI simulator for integration testing.
 
 ```bash
-brew install alfredjeanlab/tap/quench
+brew install alfredjeanlab/tap/claudeless
 ```
 
 ## License
