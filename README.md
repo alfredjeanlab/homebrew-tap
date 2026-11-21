@@ -10,6 +10,14 @@ brew tap alfredjeanlab/tap
 
 ## Formulas
 
+### trucker
+
+Shares compiled crates between worktrees as a rustc wrapper.
+
+```bash
+brew install alfredjeanlab/tap/trucker
+```
+
 ### ripcloc
 
 Quickly counts lines of code by language.
