@@ -1,8 +1,8 @@
 class Ripcloc < Formula
   desc "Quickly counts lines of code by language"
   homepage "https://github.com/alfredjeanlab/ripcloc"
-  url "https://github.com/alfredjeanlab/ripcloc/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "a57c43e3bba5c8e7f5bfc854ccd139d4cc2b34f6a7e9cc35c1fc85dd8ab3adfb"
+  url "https://github.com/alfredjeanlab/ripcloc/archive/refs/tags/v1.1.0.tar.gz"
+  sha256 "8eb78a1dd12401f9454117af52de518f71bf06f03ccb061d74e140b70d84c386"
   license "MIT"
 
   depends_on "rust" => :build
